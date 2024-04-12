@@ -1,0 +1,153 @@
+body{
+	font-family: 'Lobster', cursive;
+	margin: 0;
+
+	font-size: 25px;
+	line-height: 1.5;
+	background-color: #000; 
+	color: #fff;
+
+	padding: 0 0px;
+	margin: 0 auto;
+}	
+
+ul{       
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-top: 50px;
+}
+
+li{
+	padding-left: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 5px;
+} 
+
+.header{
+	position: fixed;
+	z-index: 1;
+	left: 0px;
+	top: 0px;
+	border-bottom: 1px solid white;
+	width: 100%;
+	height: 100px;
+	background-color: black;
+}
+
+.header__inner{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: -60px;
+	float: left;
+}
+
+.container{
+	max-width: 2000px;
+	padding: 0px auto;
+	margin: 0px auto;	
+}
+
+.menu{
+	margin-right: 70px;
+}
+
+.menu__list{
+	display: flex;
+	position: absolute;
+	left: 100px;
+	top: -15px;
+}
+
+.menu__list-item + .menu__list-item{
+	padding-left: 10px;
+}
+
+.menu__link{
+	padding: 20px 20px;
+}  
+
+ul.breadcrumb{
+  margin-top: 100px;
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li{
+  display: inline;
+  font-size: 20 px;
+}
+
+ul.breadcrumb li+li: before{
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a{
+  color: #F5F5F5;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #FC2847;
+  text-decoration: underline;
+}
+
+.img_1{
+      display: block;
+      text-align: center;
+      width: 700px;
+      height: 450px;
+      margin-left: 100px;
+      margin-bottom: 120px;
+      margin-top: 20px; 
+      padding: 0px;
+      transform: scale (100%);
+      box-shadow: 0 0 50px 1px #A52A2A;
+}
+
+a.button{
+  margin-left: 15px;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+  background: radial-gradient(circle, rgba(65,10,125,1) 0%, rgba(57,98,181,1) 100%);
+  padding: .10em 3em 10px;
+}
+    
+a.button: hover{ 
+    background: rgb(232,95,76); 
+}
+
+a.button: active{ 
+    background: rgb(152,15,0);
+}
+
+.video_1{
+	position: absolute;
+	right: 100px;
+	top: 130px;
+}
+
+.promo_title{
+	font-size: 35px;
+	margin-bottom: 20px;
+}
+
+.video_2{
+	margin-top: 40px;
+}
+
+
+

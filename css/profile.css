@@ -1,0 +1,155 @@
+body{
+	font-family: 'Lobster', cursive;
+	margin: 0;
+
+	font-size: 30px;
+	line-height: 1.5;
+	background-color: #000; 
+	color: #fff;
+
+	padding: 0 0px;
+	margin: 0 auto;
+}
+
+
+ul{       
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	padding-top: 50px;
+}
+
+li{
+	padding-left: 0;
+}
+
+a{
+	text-decoration: none;
+	color: inherit;
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+}  
+
+img{
+  vertical-align: top;
+  margin-left: -150px;
+}
+
+.avatar_img{
+  vertical-align: top;
+  margin-left: -10px;
+}
+
+.wrapper{
+  min-height: 100%;
+  overflow: hidden;
+}
+._container{
+  margin: 0 auto;
+  max-width: 1400px;
+}
+
+.header{
+  background-color: #A40416;
+}
+
+.header__body{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 140px;
+  color: #fff;
+}
+
+.header__list{
+  display: flex;
+  flex-direction: column;
+  margin-left: -180px;
+  margin-top: -46px;
+}
+
+.header__link{
+  color: #fff;
+
+  text-transform: uppercase;
+  font-size: 22px;
+}
+
+.header__link:not(:last-child){
+  margin: 2px 5px 20px 0px;
+  font-size: 22px;
+}
+
+.header__chat{
+  color: #fff;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-left: 215px;
+}
+
+.header__money{
+  color: #fff;
+  width: 100px;
+  padding: 15px;
+  text-align: center;
+  border: 2px solid #000;
+  border-radius: 10px;
+  margin-right: -73px;
+}
+
+.header__item{
+  margin-top: 30px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+}
+
+.header__name{
+  margin: 5px 0px;
+  text-align: center;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+.first{
+  margin-top: 50px;
+}
+
+.first__container{
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__statistic{
+  text-align: center;
+  background-color: #A40416;
+  border-radius: 40px;
+  min-width: 400px;
+  padding: 25px;
+  font-size: 24px;
+}
+
+.header__homework{
+  margin: 15px 0px;
+}
+
+.header__achievement{
+  margin-top: 15px;
+  text-align: center;
+}
+
+.header__interactive{
+	cursor: pointer;
+}
